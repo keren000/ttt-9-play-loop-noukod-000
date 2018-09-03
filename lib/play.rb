@@ -46,3 +46,4 @@ def play(board)
       puts "You only get #{turn}!"
     end
   end
+end
