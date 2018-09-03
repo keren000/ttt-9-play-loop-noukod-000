@@ -37,10 +37,11 @@ end
 
 # Define your play method below
 def play(board)
-  turn = 3
+  #turn = 3
   turncounter = 0
   loop do
-    turncounter = turncounter + 1
+    while turncounter < 9
+    turncounter += 1
     turn(board)
     if turncounter >= turn
       puts "You only get #{turn}!"
