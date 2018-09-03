@@ -43,8 +43,6 @@ def play(board)
     while turncounter < 9
     turncounter += 1
     turn(board)
-    if turncounter >= turn
-      puts "You only get #{turn}!"
-    end
+    
   end
 end
