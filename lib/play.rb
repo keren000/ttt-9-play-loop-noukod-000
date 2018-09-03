@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  turn = 9
+  turn = 3
   turncounter = 0
   loop do
     turncounter = turncounter + 1
