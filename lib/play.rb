@@ -43,7 +43,7 @@ def play(board)
     turncounter = turncounter + 1
     turn(board)
     if turncounter >= turn
-      puts "You only get #{turn} turns guys!"
+      puts "You only get #{turn}!"
     end
   end
 end
